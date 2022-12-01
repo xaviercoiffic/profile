@@ -1,0 +1,98 @@
+body {
+  background-color: #d90a2c;
+}
+
+#card_container {
+  background-color: aliceblue;
+  max-width: 500px;
+  margin: auto;
+  padding: 25px;
+  border-radius: 20px;
+  margin-top: 8%;
+}
+
+.card_content {
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: center;
+}
+
+.profile_display {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 35%;
+}
+
+.footer_text {
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: center;
+  font-size: 14px;
+  color: aliceblue;
+}
+
+.margin_auto {
+  margin: 0 auto;
+}
+
+button {
+  color: #ffffff;
+  font-weight: 500;
+  background-color: #d90a2c;
+  text-decoration: none;
+  font-size: 19px;
+  padding: 15px 50px;
+  border: 0px;
+  border-radius: 20px;
+}
+
+button:hover {
+  color: #feffff;
+  font-weight: 500;
+  text-decoration: none;
+  background-color: #bb0927;
+  border: 0px;
+  border-radius: 20px;
+}
+
+a, a:link, a:hover, a:active {
+  text-decoration: none;
+  color: #feffff;
+}
+
+ul {
+  list-style-type: none;
+  text-align: center;
+  margin-left: -30px;
+}
+
+li {
+
+  display: inline;
+  text-align: center;
+}
+
+.icons {
+  color: #d90a2c;
+  font-size: 30px;
+  padding-right: 15px;
+}
+
+@media (max-width: 960px) {
+  /* For a screen < 960px, this CSS will be read */
+  .card_container {
+    width: 700px;
+  }
+}
+
+@media (max-width: 720px) {
+  /* For a screen < 720px, this CSS will be read */
+  .card_container {
+    width: 500px;
+  }
+}
+
+@media (max-width: 540px) {
+  /* For a screen < 540px, this CSS will be read */
+  .card_container {
+    width: 300px;
+  }
